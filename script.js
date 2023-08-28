@@ -34,6 +34,7 @@ for (const botaoIndividual of botao) {
             }
         } else {
             imagem.setAttribute('src', `./img/${botaoIndividual.id}.png`);
+            automaticoAtivado=false;
         }
     })
 }
